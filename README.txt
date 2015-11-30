@@ -1,5 +1,5 @@
 ######################################################################################################################################
-Pipeline for generating sitewise phyloP LRT data based on human amino acid protein sequences.
+Pipeline for generating sitewise,nucleotide phyloP LRT data based on human amino acid protein sequences.
 - Converts human amino acid protein sequences to nucleotide alignments based on 46, vertebrate species.
 - Uses Vertebrate, Mammal and Primate phylogenetic trees to produce nucleotide phyloP LRT scores of 
 protein-coding, 35kb upstream and intronic regions corresponding to original human protein sequence information.
@@ -21,7 +21,7 @@ $ sh main.sh <human_aminoacid_seqs.fasta>
 
 **Additional required downloads/published software**:
 
-Multiz46way alignment of known human exon sequences: 
+Multiz46way alignment of known human exon sequences (knownGene.exonNuc.fa): 
 - Blanchette, M., Kent, W. J., Riemer, C., Elnitski, L., Smit, A. F., Roskin, K. M., ... & Miller, W.(2004).
   Aligning multiple genomic sequences with the threaded blockset aligner. Genome research, 14(4), 708-715.
 - ftp://hgdownload.cse.ucsc.edu/goldenPath/hg19/multiz46way/alignments/ 
